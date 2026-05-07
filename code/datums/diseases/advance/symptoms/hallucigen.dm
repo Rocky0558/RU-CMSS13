@@ -1,7 +1,7 @@
 /*
 //////////////////////////////////////
 
-Hallucinogen
+Hallucigen
 
 	Very noticeable.
 	Lowers resistance considerably.
@@ -15,22 +15,22 @@ Bonus
 //////////////////////////////////////
 */
 
-/datum/symptom/hallucinogen
+/datum/symptom/hallucigen
 
-	name = "Hallucinogen"
+	name = "Hallucigen"
 	stealth = -2
 	resistance = -3
 	stage_speed = -3
 	transmittable = -1
 	level = 5
 
-/datum/symptom/hallucinogen/Activate(datum/disease/advance/A)
+/datum/symptom/hallucigen/Activate(datum/disease/advance/A)
 	..()
 	if(prob(SYMPTOM_ACTIVATION_PROB))
 		var/mob/living/carbon/M = A.affected_mob
 		switch(A.stage)
 			if(1, 2, 3, 4)
-				to_chat(M, SPAN_NOTICE("[pick("You notice someone in the corner of your eye.", "Are those footsteps you hear?")]"))
+				to_chat(M, SPAN_NOTICE("[pick("You notice someone in the corner of your eye.", "Is that footsteps?.")]"))
 			else
 				M.hallucination += 5
 

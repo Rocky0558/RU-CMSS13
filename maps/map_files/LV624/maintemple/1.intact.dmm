@@ -32,7 +32,7 @@
 	pixel_x = -1;
 	pixel_y = 31
 	},
-/obj/structure/showcase/yautja/ancient,
+/obj/structure/showcase/yautja,
 /turf/open/floor/sandstone/runed,
 /area/lv624/ground/barrens/south_eastern_barrens)
 "ai" = (
@@ -76,24 +76,6 @@
 	},
 /turf/open/floor/sandstone/runed,
 /area/lv624/ground/caves/sand_temple/powered)
-"an" = (
-/obj/structure/showcase/yautja/alt{
-	dir = 1
-	},
-/turf/open/floor/corsat/squareswood/north,
-/area/lv624/ground/caves/sand_temple)
-"ao" = (
-/obj/structure/closet/coffin/predator/ancient_stone{
-	pixel_x = 3
-	},
-/turf/open/floor/corsat/squareswood/north,
-/area/lv624/ground/caves/sand_temple)
-"ap" = (
-/obj/structure/closet/coffin/predator/ancient_stone/mummy{
-	pixel_x = 3
-	},
-/turf/open/floor/corsat/squareswood/north,
-/area/lv624/ground/caves/sand_temple)
 "as" = (
 /obj/structure/surface/table/reinforced/prison{
 	color = "#6b675e"
@@ -164,7 +146,7 @@
 /turf/open/floor/sandstone/runed,
 /area/lv624/ground/caves/sand_temple)
 "ba" = (
-/obj/structure/showcase/yautja/ancient{
+/obj/structure/showcase/yautja{
 	dir = 8
 	},
 /turf/open/floor/strata/grey_multi_tiles,
@@ -409,9 +391,7 @@
 /turf/open/gm/dirtgrassborder/north,
 /area/lv624/ground/caves/sand_temple)
 "gA" = (
-/obj/structure/curtain/colorable{
-	color = "#6c4449"
-	},
+/obj/structure/curtain/red,
 /turf/open/shuttle/red,
 /area/lv624/ground/caves/sand_temple)
 "gI" = (
@@ -468,7 +448,7 @@
 /turf/open/gm/dirtgrassborder/desert2,
 /area/lv624/ground/barrens/south_eastern_barrens)
 "hI" = (
-/obj/structure/showcase/yautja/ancient{
+/obj/structure/showcase/yautja{
 	dir = 4
 	},
 /turf/open/floor/sandstone/runed,
@@ -485,18 +465,15 @@
 /turf/open/floor/corsat/squareswood/north,
 /area/lv624/ground/caves/sand_temple)
 "hX" = (
-/obj/structure/showcase/yautja/ancient{
+/obj/structure/showcase/yautja{
 	dir = 8
 	},
 /turf/open/floor/sandstone/runed,
 /area/lv624/ground/barrens/south_eastern_barrens)
 "ig" = (
+/obj/structure/morgue/sarcophagus,
 /obj/item/weapon/twohanded/yautja/glaive/damaged{
 	name = "damaged war glaive"
-	},
-/obj/structure/closet/coffin/predator/ancient_stone/mummy{
-	dir = 8;
-	pixel_y = 4
 	},
 /turf/open/floor/corsat/squareswood/north,
 /area/lv624/ground/caves/sand_temple)
@@ -595,7 +572,7 @@
 	pixel_x = 1;
 	pixel_y = 31
 	},
-/obj/structure/showcase/yautja/ancient,
+/obj/structure/showcase/yautja,
 /turf/open/floor/sandstone/runed,
 /area/lv624/ground/barrens/south_eastern_barrens)
 "mN" = (
@@ -761,9 +738,11 @@
 /turf/open/floor/sandstone/runed,
 /area/lv624/ground/caves/sand_temple)
 "wS" = (
-/obj/structure/closet/coffin/predator/ancient_stone/mummy{
-	dir = 1;
-	pixel_x = 3
+/obj/structure/showcase{
+	desc = "An ancient, dusty tomb with strange alien writing. It's best not to touch it.";
+	icon_state = "yaut";
+	icon = 'icons/obj/structures/morgue.dmi';
+	name = "alien sarcophagus"
 	},
 /turf/open/floor/corsat/squareswood/north,
 /area/lv624/ground/caves/sand_temple)
@@ -1007,9 +986,7 @@
 /turf/open/floor/strata/grey_multi_tiles,
 /area/lv624/ground/caves/sand_temple/powered)
 "He" = (
-/obj/structure/curtain/colorable{
-	color = "#6c4449"
-	},
+/obj/structure/curtain/red,
 /turf/open/floor/strata/grey_multi_tiles,
 /area/lv624/ground/caves/sand_temple)
 "Hl" = (
@@ -1074,7 +1051,7 @@
 	pixel_y = -31
 	},
 /obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/showcase/yautja/ancient{
+/obj/structure/showcase/yautja{
 	dir = 8
 	},
 /turf/open/floor/sandstone/runed,
@@ -1245,7 +1222,7 @@
 	pixel_y = -31
 	},
 /obj/structure/blocker/forcefield/multitile_vehicles,
-/obj/structure/showcase/yautja/ancient{
+/obj/structure/showcase/yautja{
 	dir = 4
 	},
 /turf/open/floor/sandstone/runed,
@@ -1305,7 +1282,7 @@
 /turf/open/gm/dirt,
 /area/lv624/ground/caves/sand_temple)
 "Sc" = (
-/obj/structure/showcase/yautja/ancient{
+/obj/structure/showcase/yautja{
 	dir = 4
 	},
 /turf/open/floor/strata/grey_multi_tiles,
@@ -1350,7 +1327,7 @@
 /turf/open/floor/corsat/squareswood/north,
 /area/lv624/ground/caves/sand_temple/powered)
 "TL" = (
-/obj/structure/showcase/yautja/ancient,
+/obj/structure/showcase/yautja,
 /turf/open/floor/strata/grey_multi_tiles,
 /area/lv624/ground/caves/sand_temple)
 "TO" = (
@@ -1755,7 +1732,7 @@ GT
 GT
 GT
 OC
-ao
+wS
 gL
 Jc
 Jc
@@ -1803,7 +1780,7 @@ Jc
 Jc
 Jc
 gL
-an
+Mn
 OC
 TO
 Ai
@@ -1839,7 +1816,7 @@ GT
 GT
 GT
 oi
-ao
+wS
 gL
 Jc
 Jc
@@ -1887,7 +1864,7 @@ Jc
 Jc
 Jc
 gL
-an
+Mn
 OC
 TO
 Ai
@@ -1923,7 +1900,7 @@ GT
 GT
 GT
 OC
-ap
+wS
 gL
 Jc
 Jc
@@ -1971,7 +1948,7 @@ Jc
 Jc
 Jc
 gL
-an
+Mn
 OC
 Pm
 Jz

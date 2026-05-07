@@ -103,6 +103,7 @@
 	unslashable = TRUE
 	emp_proof = TRUE
 	openspeed = 6
+	color = "#f0ebd3"
 
 /obj/structure/machinery/door/poddoor/yautja/open
 	density = FALSE

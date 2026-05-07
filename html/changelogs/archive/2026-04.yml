@@ -54,6 +54,7 @@
   - balance: disabled active queen pull
   The-Last-Shadow:
   - rscadd: Vote for hijack skip
+<<<<<<< HEAD
 2026-04-16:
   JackieEstegado:
   - bugfix: Organ healing chemicals no longer produce messages falsely indicating
@@ -166,3 +167,8 @@
 2026-04-29:
   Rocky0558:
   - bugfix: Sensor tower now damaging by explosions rather than repairing
+=======
+2026-04-18:
+  Rocky0558:
+  - code_imp: reverted queen pull
+>>>>>>> parent of 4467b0197b (Into/upstream270426 (#617))
